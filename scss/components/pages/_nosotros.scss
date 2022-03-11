@@ -1,0 +1,64 @@
+/* Sobre Nosotros */
+
+.director-container {
+    width: 80%;
+    margin: auto;
+    h2 {
+
+    }
+    .about-director {
+
+        p {
+            text-align: justify;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        img {
+            float: right;
+            width: 201px;
+            height: 251px;
+            margin-left: 20px;
+        }
+
+    }
+}
+
+.team {
+    width: 80%;
+
+    .team-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        h2 {
+
+        }
+        .team-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+            img {
+                width: 150px;
+                height: 150px;
+            }
+            .teamate-name {
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-weight: bold;
+                font-size: 120%;
+
+            }
+            .teamate-position {
+                transform: uppercase;
+                letter-spacing: 2px;
+            }
+
+        }
+
+    }
+
+}    

@@ -1,0 +1,27 @@
+
+
+.testimony-container {
+    width: 80%;
+
+        .testimony {
+            margin-bottom: 40px;
+
+            .testimony-img {
+                
+                
+                img {
+                width: 130px;
+                height: 90px;
+                object-fit: cover;
+                }
+            }
+            
+            .testimony-client {
+                font-weight: 500;
+            }
+
+            
+        }
+
+    
+}
